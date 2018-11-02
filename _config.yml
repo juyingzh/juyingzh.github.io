@@ -1,1 +1,6 @@
+# To use the Architect theme
 theme: jekyll-theme-architect
+
+# Customizing
+title: 我的个人主页
+description: 记录工作、生活、学习的点滴
