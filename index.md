@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home Page
+title: 主页
 ---
 
 # Hello World
