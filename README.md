@@ -1,3 +1,3 @@
 我的主页:
 
-[juyingzh.github.io]
+http://juyingzh.github.io
