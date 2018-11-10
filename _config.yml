@@ -1,6 +1,13 @@
-# To use the Architect theme
-theme: jekyll-theme-architect
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Customizing
 title: 我的个人空间
+tagline: '个人空间'
 description: 记录工作、生活、学习的点滴
+url:                 http://www.zynd.net
+baseurl:             ''
+paginate:            5
