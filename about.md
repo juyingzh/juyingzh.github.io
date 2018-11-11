@@ -1,6 +1,10 @@
 ---
 layout: page
-title: About Page
+title: About
+permalink: /about/
 ---
 
-# About page
+# 我的个人主页
+
+##  <http://www.zynd.net>
+
