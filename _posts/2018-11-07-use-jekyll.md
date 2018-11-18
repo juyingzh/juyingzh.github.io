@@ -17,7 +17,7 @@ Jekyll的官网地址：<https://jekyllrb.com/>
 
 ### 使用Liquid建立模板
 
-Liquid 使用一个模板语言，Jekyll使用Liquid定义模板。
+[Liquid](https://shopify.github.io/liquid/) 是一个模板语言，Jekyll使用Liquid定义模板。 Liquid 语言包含三个主要的元素：对象、标签和过滤器。
 
 ### 使用Front Matter定义页面属性
 

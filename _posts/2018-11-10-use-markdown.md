@@ -29,7 +29,7 @@ Markdown 不是要取代 HTML，它的语法只对应了 HTML 标签很小的一
 
 唯一的限制是，块级的 HTML 元素必须与周围的内容用空行隔开，例如：`<div>, <table>, <pre>, <p>` 等，而且块标签的开始和结束不能用空格或制表符缩进。 
 
-行内级的 HTML 标签可以在Markdown段落、列表项或头部使用，例如：` <span>, <cite>, or <del>` ，甚至可以使用 HTML 标签代替 Markdown 语法。
+行内级的 HTML 标签可以在Markdown段落、列表项或头部使用，例如：` <span>, <cite>, <del>` ，甚至可以使用 HTML 标签代替 Markdown 语法。
 
 注意，Markdown 语法在 HTML 块级的标签中不进行处理，但在行内级标签中被处理。
 
@@ -38,9 +38,9 @@ Markdown 不是要取代 HTML，它的语法只对应了 HTML 标签很小的一
 
 在 HTML 中，有两个字符需要特殊处理：`<, &`。Left angle brackets表示标签的开始，ampersands表示HTML实体。如果要用作普通字符，需要作为实体处理，如 `&lt;, &amp;`。
 
-Markdown 中可以自然地使用这些字符，解释器会自动处理。如果在 HTML 实体中使用&，会保持不变，否则会自动解释为 &amp;。比如文本中使用版权标志，写作：`&copy;`，Markdown 解释器会保持不变，但文本中的AT&T，Markdown 会解释为：`AT&amp;T`。
+Markdown 中可以自然地使用这些字符，解释器会自动处理。如果在 HTML 实体中使用&，会保持不变，否则会自动解释为 `&amp;`。比如文本中使用版权标志，写作：`&copy;`，Markdown 解释器会保持不变，但文本中的AT&T，Markdown 会解释为：`AT&amp;T`。
 
-同样，由于Markdown 支持内联 HTML，如果将<用作 HTML标签，Markdown会处理成HTML标签。但如果写作：4 < 5，Markdown 会解释成`4 &lt; 5`。
+同样，由于Markdown 支持内联 HTML，如果将 < 用作 HTML 标签，Markdown会处理成HTML标签。但如果写作：4 < 5，Markdown 会解释成`4 &lt; 5`。
 
 ### 块元素
 
