@@ -73,6 +73,7 @@ Jekyll页面支持 [Markdown](https://daringfireball.net/projects/markdown/synta
 
 将导航栏加到布局文件中 `_layouts/default.html`：
 
+<pre><code>
 	<!doctype html>
 	<html>
 	  <head>
@@ -84,6 +85,7 @@ Jekyll页面支持 [Markdown](https://daringfireball.net/projects/markdown/synta
 		{{ content }}
 	  </body>
 	</html>
+</code></pre>
 
 ##  使用Data文件
 
