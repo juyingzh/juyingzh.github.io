@@ -9,6 +9,7 @@ title:  使用Jekyll
 
 Jekyll 是一个静态网站生成引擎，使用文本文件生成静态网站或博客。GitHub Pages 集成了 Jekyll，可以利用 Jekyll 的模板快速生成一个网站。
 
+<pre><code>
 Jekyll的官网地址：<https://jekyllrb.com/>
 
 ## Jekyll使用步骤
@@ -37,7 +38,6 @@ Jekyll页面支持 [Markdown](https://daringfireball.net/projects/markdown/synta
 
 例如创建一个布局`_layouts/default.html`：
 
-<pre><code>
 	<!doctype html>
 	<html>
 	  <head>
