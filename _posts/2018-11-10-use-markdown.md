@@ -238,6 +238,22 @@ Markdown 使用 <pre> 和 <code> 包裹代码块。
 
 普通的Markdown语法不会在代码块中处理，这样也方便在Markdown书写Markdown自己的语法。
 
+GitHub 也支持称为 code fencing 的代码块样式，使用三个斜点包围代码块，允许多行代码块不需要缩进。例如：
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+如果想要进行语法高亮显示，需要在三个斜点后指定语言。例如：
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
 ####  水平分割线
 
 要产生一个水平分割线(`<hr />`) ，只需在一行中使用至少三个-`, *, _`，甚至可以在`-, *`中间加空格。例如：
