@@ -417,10 +417,10 @@ cycle 接受一个参数叫 `cycle group`， 用在一个模板需要有多个 c
 
 Raw 临时禁止标签的处理，用在使用相互冲突的语法输出内容，或输出Liqud代码的地方。例如：
 
-	{% raw %}{% raw %}{% endraw %}
+	<code>{&#37; raw &#37;}</code>
 	  In Handlebars, {{ this }} will be HTML-escaped, but
 	  {{{ that }}} will not.
-	{% raw %}{% endraw %}{% endraw %}
+	<code>{&#37; endraw &#37;}</code>
 
 ###  变量
 
@@ -684,6 +684,6 @@ Variable 标签创建 Liquid 变量。
 
 ### 注意事项
 
-Jekyll使用Liquid对文本进行解析，在Markdonw文件中的Liquid代码会被解析，所以，Markdonw文件中的Liquid代码需要使用raw标签进行包裹。
+Jekyll使用Liquid对文本进行解析，在Markdonw文件中的Liquid代码会被解析，所以，Markdonw文件中的Liquid代码需要使用raw标签进行包裹。如果在代码块中显示<code>{&#37; raw &#37;}</code>和<code>{&#37; endraw &#37;}</code>，可以使用HTML的硬编码（参看本文）。
 
 
