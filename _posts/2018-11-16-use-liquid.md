@@ -418,10 +418,10 @@ cycle 接受一个参数叫 `cycle group`， 用在一个模板需要有多个 c
 
 Raw 临时禁止标签的处理，用在使用相互冲突的语法输出内容，或输出Liqud代码的地方。例如：
 
-	{% raw %}{% raw %}{% endraw %}
+	{% raw %}<code>{&#37; raw &#37;}</code>{% endraw %}
 	  In Handlebars, {{ this }} will be HTML-escaped, but
 	  {{{ that }}} will not.
-	{% raw %}{% endraw %}{% endraw %}
+	{% raw %}<code>{&#37; endraw &#37;}</code>{% endraw %}
 
 ###  变量
 
