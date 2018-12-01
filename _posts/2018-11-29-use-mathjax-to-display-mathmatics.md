@@ -55,8 +55,9 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 
 在网页的`<head>` 中包含下列代码，将MathJax链接到网页，其中`path-to-MathJax`要与放置 MathJax 文件夹匹配。
 
-	<script type="text/javascript" async src="path-to-MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
+	<script type="text/javascript" async 
+	    src="path-to-MathJax/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
 
 ### 配置 MathJax
 
@@ -170,7 +171,7 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 
 #### 使用 MathML 输入公式
 
-使用 MathML 输入数学公式时，`<math display="block"> 表示行间公式， `<math display="inline">` 或只是 `<math>` 标识行内公式。*输入太长，不适合人类使用！*
+使用 MathML 输入数学公式时，`<math display="block"> 表示行间公式， `<math display="inline">` 或只是 `<math>` 标识行内公式。*输入太冗长，不适合人类使用！*
 
 
 #### 使用 AsciiMath 输入公式
@@ -183,28 +184,27 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 	  `x = (-b +- sqrt(b^2-4ac))/(2a) .`
 	</p>
 
-## 在Jekyll中使用MathJax
+##  在Jekyll中使用MathJax
 
+在 Jekyll 站点根目录下的 `_includes/head.html` 文件中的 `<head>` 和 `<\head>` 标签之间添加以下代码：
 
-
-###  The TeX-AMS_HTML configuration file
-
-This configuration file is for sites that only use TeX format for their mathematics, and that want the output to be as close to TeX output as possible. This uses the HTML-CSS output jax (even when the user’s browser understands MathML). The user can still use the MathJax contextual menu to select the NativeMML output jax if they desire.
-
-This file includes all the important MathJax components for TeX input and output, including the tex2jax preprocessor and TeX input jax, the AMSmath, AMSsymbols, noErrors, and noUndefined TeX extensions, the HTML-with-CSS output processor definition, the fast-preview and AssistiveMML extensions, and the MathMenu and MathZoom extensions. It is equivalent to the following configuration:
-
+	<!-- MathJax Support -->
 	MathJax.Hub.Config({
-	  jax: ["input/TeX","output/HTML-CSS", "output/PreviewHTML"],
-	  extensions: ["tex2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "a11y/accessibility-menu.js"],
-	  TeX: {
-		extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+	  tex2jax: {
+		inlineMath: [['$','$'], ['\\(','\\)']],
+		processEscapes: true
 	  }
 	});
+	<script type="text/javascript" async
+	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
+	</script>
 
-In addition, it loads the mml Element Jax and the TeX input jax main code (not just the definition file), as well as the toMathML extension, which is used by the Show Source option in the MathJax contextual menu. The -full version also loads the HTML-CSS and PreviewHTML output jax main code, plus the HTML-CSS mtable extension, which is normally loaded on demand.
+以上代码表示使用cdnjs.com载入MathJax，使用TeX-AMS_HTML组合配置文件。这个配置文件表示只使用 TeX 格式输入公式，使用HTML-CSS输出公式，其输出与 TeX 输出尽可能接近。使用行内配置命令启用了行内公式界定符 `$...$`，并启用了反斜杠转义，如果需要输入\$时，需要使用反斜杠转义。
 
-一些公式实例
+##  一些公式实例
 
-一元二次方程
-When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+###  一元二次方程
+
+当 $a \ne 0$, 方程 \(ax^2 + bx + c = 0\) 有两个根：
+
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
