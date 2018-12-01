@@ -25,8 +25,8 @@ MathJax的官网地址：<https://www.mathjax.org/>
 有许多免费的 CDN 提供了 MathJax。
 
 -   cdnjs.com （推荐）
--   jsdelivr.com [rolling]
--   unpkg.com [rolling]
+-   jsdelivr.com （rolling）
+-   unpkg.com （rolling）
 -   rawgit.com
 -   gitcdn.xyz
 -   raw.githack.com
@@ -49,7 +49,7 @@ MathJax的官网地址：<https://www.mathjax.org/>
 4.   在网页中输入数学公式
 
 
-MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新版的 MathJax ，解压并放在适当的位置，以便可以链接到其他网页。 比如，放在根目录，这样可以通过 URL `/MathJax/MathJax.js`引用 MathJax。 安装完后，可以使用目录 `MathJax/test` 下的文件测试 MathJax 。
+MathJax 的源码保持在[GitHub](https://github.com/mathjax/MathJax/)。下载最新版的 MathJax ，解压并放在适当的位置，以便可以链接到其他网页。 比如，放在根目录，这样可以通过 URL `/MathJax/MathJax.js`引用 MathJax。 安装完后，可以使用目录 `MathJax/test` 下的文件测试 MathJax 。
 
 默认情况下会载入配置文件 `config/TeX-MML-AM_CHTML.js` 。这个配置文件载入最常用的 MathJax组件，允许输入TeX/LaTeX 、 MathML、AsciiMath 标记的数学公式，输出带 带CSS的HTML 来显示数学公式。
 
@@ -209,6 +209,6 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 
 ###  一元二次方程
 
-当 $a \ne 0$, 方程 \(ax^2 + bx + c = 0\) 有两个根：
+当 $a \ne 0$, 方程 \\( ax^2 + bx + c = 0 \\) 有两个根：
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$

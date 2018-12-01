@@ -450,3 +450,6 @@ Markdown会输出：
 	.   dot
 	!   exclamation mark
 
+##  GitHub扩展
+
+GitHub在官方规范基础上进行了扩展，定义了其自己的规范，称为[GitHub Flavored Markdown Spec](https://github.github.com/gfm/)。
