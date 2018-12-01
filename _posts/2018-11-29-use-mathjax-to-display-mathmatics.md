@@ -133,12 +133,14 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 
 默认情况下的公式界定符，行间公式使用 `$$...$$` 和 `\[...\]`，行内公式使用 `\(...\)` 。行内公式界定符 `$...$` 默认不启用，这是因为美元符号在一般文本中太常见了，容易引起错误。如果想启用这个界定符，必须进行显式地配置。
 
-	MathJax.Hub.Config({
-	  tex2jax: {
-		inlineMath: [['$','$'], ['\\(','\\)']],
-		processEscapes: true
-	  }
-	});
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {
+			inlineMath: [['$','$'], ['\\(','\\)']],
+			processEscapes: true
+		  }
+		});
+	</script>
 
 对 TeX、LaTeX 包括两部分：tex2jax 预处理器和 TeX 输入处理器。前者标识文本中的数学公式，后者将输入公式转换成一种中间格式，供输出处理器显示。 
 
@@ -176,7 +178,7 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 
 #### 使用 AsciiMath 输入公式
 
-使用 AsciiMath 输入数学公式时，使用斜点符标识公式，如 `\`...\``。
+使用 AsciiMath 输入数学公式时，使用斜点符标识公式，如 \`...\`。
 
 	<p>When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and
 	they are</p>
@@ -189,12 +191,14 @@ MathJax 的源码在[GitHub](https://github.com/mathjax/MathJax/)。下载最新
 在 Jekyll 站点根目录下的 `_includes/head.html` 文件中的 `<head>` 和 `<\head>` 标签之间添加以下代码：
 
 	<!-- MathJax Support -->
-	MathJax.Hub.Config({
-	  tex2jax: {
-		inlineMath: [['$','$'], ['\\(','\\)']],
-		processEscapes: true
-	  }
-	});
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {
+			inlineMath: [['$','$'], ['\\(','\\)']],
+			processEscapes: true
+		  }
+		});
+	</script>
 	<script type="text/javascript" async
 	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML">
 	</script>
