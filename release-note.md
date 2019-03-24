@@ -7,7 +7,8 @@ title: Release Note
 
 2019-03-24:
 
--  添加.gitignore文件，忽略_posts/draft
+-  添加.gitignore文件
+-  添加_draft文件夹
 -  解除域名绑定，使用juyingzh.github.io
 
 2018-12-01：
@@ -20,5 +21,5 @@ title: Release Note
 
 2018-10-28：
 
--  利用Github Pages建立博客，绑定域名
+-  利用Github Pages建立博客，绑定域名zynd.net
 
