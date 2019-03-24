@@ -1,13 +1,13 @@
 # Site settings
-title: 我的个人空间
+title: JuyingZh
 description: 记录工作、生活、学习中的思考
 baseurl: "" # the subpath of your site, e.g. /blog
 
 
-# social links
-#twitter_username: jekyllrb
-#github_username:  jekyll
-#rss: rss
+##  social links
+# twitter_username: jekyllrb
+github_username:  juyingzh
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll

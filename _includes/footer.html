@@ -1,11 +1,7 @@
 <footer class="site-footer">
 
-
     <div class="wrapper">
 
-        <p class="description">
-            {% if site.description_footer %} {{site.description_footer}} {% endif %}
-        </p>
         <p class="contact">
             Contact me at: {% if site.github_username %}
             <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
@@ -17,17 +13,19 @@
             <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
             <a href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
         </p>
-        <p>
-            本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-        </p>
         <p class="power">
             <span>
                 Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
             </span>
+        </p>
+		<p class="copyright">
             <span>
-                Theme designed by <a href="https://github.com/Gaohaoyang">HyG</a>.
+                &copy; Copyright 2018-<script language="javascript" type="text/javascript">
+                 var today = new Date()
+                 var year = today.getFullYear()
+                 document.write(year)
+                </script> {{site.title}}. All Rights Reserved.
             </span>
         </p>
     </div>
 </footer>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
