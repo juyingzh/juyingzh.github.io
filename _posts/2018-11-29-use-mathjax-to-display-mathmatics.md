@@ -5,7 +5,6 @@ categories: [数学公式]
 tags: [MathJax]
 ---
 
-# 使用MathJax显示数学公式
 
 * Content
 {:toc}

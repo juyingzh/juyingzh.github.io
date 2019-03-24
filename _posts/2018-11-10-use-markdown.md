@@ -5,7 +5,6 @@ categories: [Markdown]
 tags: [Markdown]
 ---
 
-# 使用Markdown
 
 * Content
 {:toc}

@@ -5,7 +5,6 @@ categories: [Github]
 tags: [GitHub, Jekyll]
 ---
 
-# 在Github上建立用户主页
 
 * Content
 {:toc}

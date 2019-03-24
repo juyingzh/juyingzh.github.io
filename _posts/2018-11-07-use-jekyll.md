@@ -5,7 +5,6 @@ categories: [Jekyll]
 tags: [Jekyll]
 ---
 
-# 使用Jekyll
 
 * Content
 {:toc}

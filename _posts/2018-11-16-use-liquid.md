@@ -5,7 +5,6 @@ categories: [Jekyll]
 tags: [Liquid]
 ---
 
-# 使用Liquid
 
 * Content
 {:toc}

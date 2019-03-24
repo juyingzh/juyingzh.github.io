@@ -21,14 +21,9 @@ github_username:  juyingzh
 # googleplus_username: +jekyll
 # microdotblog_username: jekyll
 
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
 
 markdown: kramdown
+highlighter: rouge
 kramdown:
     toc_levels: 1..3
 
