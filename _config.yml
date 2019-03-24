@@ -1,6 +1,7 @@
-# Customizing
+# Site settings
 title: 我的个人空间
 description: 记录工作、生活、学习中的思考
+baseurl: "" # the subpath of your site, e.g. /blog
 
 
 # social links
@@ -44,7 +45,7 @@ minima:
 # - about.md
 
 # Build settings
-theme: minima
+# theme: minima
 
 plugins:
  - jekyll-feed

@@ -10,10 +10,11 @@ title: Release Note
 -  添加.gitignore文件
 -  添加_draft文件夹
 -  解除域名绑定，使用juyingzh.github.io
+-  基于[Gaohaoyang的主题](https://github.com/Gaohaoyang/gaohaoyang.github.io)修改了主题
 
 2018-12-01：
 
--  在header.html中添加MathJax配置，以使用MathJax显示数学公式
+-  在head.html中添加MathJax配置，以使用MathJax显示数学公式
 
 2018-11-11：
 
