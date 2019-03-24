@@ -47,6 +47,17 @@ minima:
 # Build settings
 # theme: minima
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+#plugins:
+#- jekyll-feed
+#- jekyll-seo-tag
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# pagination
+gems: [jekyll-paginate]
+paginate: 10

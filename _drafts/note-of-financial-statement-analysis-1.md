@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 财务报表分析读书笔记（一）
+categories: [财经]
+tags: [财务报表, 价值分析]
 ---
 
 财务报表分析读书笔记（一）

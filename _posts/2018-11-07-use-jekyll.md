@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  使用Jekyll 
+title:  使用Jekyll
+categories: [Jekyll]
+tags: [Jekyll]
 ---
 
 # 使用Jekyll

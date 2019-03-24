@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  在Github上建立用户主页 
+title:  在Github上建立用户主页
+categories: [Github]
+tags: [GitHub, Jekyll]
 ---
 
 # 在Github上建立用户主页

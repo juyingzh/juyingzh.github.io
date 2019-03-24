@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 为Jekyll页面添加目录
+categories: [Jekyll]
+tags: [目录]
 ---
 
 # 为Jekyll页面添加目录

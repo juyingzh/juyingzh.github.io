@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  使用Markdown 
+title:  使用Markdown
+categories: [Markdown]
+tags: [Markdown]
 ---
 
 # 使用Markdown

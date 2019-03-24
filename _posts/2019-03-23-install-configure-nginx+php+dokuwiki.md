@@ -1,6 +1,8 @@
 ---
 layout: post
 title: nginx+php+dokuwiki安装与配置
+categories: [网站]
+tags: [nginx, PHP, dokuwiki]
 ---
 
 # nginx+PHP+dokuwiki安装与配置

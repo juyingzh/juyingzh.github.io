@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  使用Liquid
+categories: [Jekyll]
+tags: [Liquid]
 ---
 
 # 使用Liquid

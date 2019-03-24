@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 投资学学习笔记
+categories: [财经]
+tags: [投资]
 ---
 
 投资学学习笔记

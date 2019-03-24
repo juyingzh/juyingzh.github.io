@@ -8,9 +8,10 @@ title: Release Note
 2019-03-24:
 
 -  添加.gitignore文件
--  添加_draft文件夹
+-  添加_draft文件夹，存放未发表文章
 -  解除域名绑定，使用juyingzh.github.io
 -  基于[Gaohaoyang的主题](https://github.com/Gaohaoyang/gaohaoyang.github.io)修改了主题
+-  为文章添加分类和标签
 
 2018-12-01：
 
