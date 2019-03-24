@@ -13,6 +13,7 @@ title: Release Note
 -  基于[Gaohaoyang的主题](https://github.com/Gaohaoyang/gaohaoyang.github.io)修改了主题
 -  为文章添加分类和标签
 -  为文章添加目录
+-  为文章添加摘要，使用3个空行分隔
 
 2018-12-01：
 
