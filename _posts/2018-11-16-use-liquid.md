@@ -7,6 +7,9 @@ tags: [Liquid]
 
 # 使用Liquid
 
+* Content
+{:toc}
+
 ## 关于Liquid
 
 Liquid 是一个灵活、安全的，并且开源的的模板语言，由 [Shopify](https://www.shopify.com/) 使用Ruby开发，被用在许多不同的环境中。目前，最流行的版本有：Liquid、Shopify Liquid 和 Jekyll Liquid。
@@ -14,6 +17,8 @@ Liquid 是一个灵活、安全的，并且开源的的模板语言，由 [Shopi
 Liquid的官网地址：<https://shopify.github.io/liquid/>
 
 Jekyll 使用了 Liquid 作为其模板语言，并添加了一些对象、标签和过滤器。Jekyll 使用的不一定是最新版。Jekyll Liquid 的文档可以查看：<https://jekyllrb.com/docs/liquid/>。
+
+
 
 ## Liquid基础
 

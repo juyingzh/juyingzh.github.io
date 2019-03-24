@@ -12,6 +12,7 @@ title: Release Note
 -  解除域名绑定，使用juyingzh.github.io
 -  基于[Gaohaoyang的主题](https://github.com/Gaohaoyang/gaohaoyang.github.io)修改了主题
 -  为文章添加分类和标签
+-  为文章添加目录
 
 2018-12-01：
 

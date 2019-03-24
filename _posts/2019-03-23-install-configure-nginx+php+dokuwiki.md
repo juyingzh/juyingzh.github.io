@@ -7,7 +7,12 @@ tags: [nginx, PHP, dokuwiki]
 
 # nginx+PHP+dokuwiki安装与配置
 
+* Content
+{:toc}
+
 在VPS上要安装dokuwiki，这个wiki引擎使用PHP做后端语言，文本文件存储信息，不需要数据库，所以安装配置一个Nginx+PHP服务器环境。以下过程基于Debian 9 x86 （Stretch）系统环境。
+
+
 
 ## nginx安装与配置
 

@@ -7,11 +7,16 @@ tags: [MathJax]
 
 # 使用MathJax显示数学公式
 
+* Content
+{:toc}
+
 ## 关于MathJax
 
 MathJax 是个一个数学公式显示引擎，使用JavaScript把 LaTeX、MathML、AsciiMath 标记的数学公式转换成 HTML、 SVG、 MathML 显示在浏览器上。
 
 MathJax的官网地址：<https://www.mathjax.org/>
+
+
 
 ## 使用MathJax
 
