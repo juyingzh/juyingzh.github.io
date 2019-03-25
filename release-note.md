@@ -5,6 +5,10 @@ title: Release Note
 
 # Release Note
 
+2019-03-25:
+
+-  添加Google Analytics，在配置文件中添加ID，在head.html中添加跟踪代码
+
 2019-03-24:
 
 -  添加.gitignore文件
