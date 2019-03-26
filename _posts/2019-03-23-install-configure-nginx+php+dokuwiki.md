@@ -164,3 +164,7 @@ Dokuwiki的扩展包括模板和插件。模板使用自带的缺省模板就可
 要在页面中显示公式，需要安装公式渲染插件MathJax，这个插件使用JavaScript把 LaTeX、MathML、AsciiMath 标记的数学公式转换成 HTML、 SVG、 MathML 显示在浏览器上。
 
 使用默认的配置，预配置文件TeX-AMS_CHTML.js，接受TeX格式的公式输入，输出HTML-CSS格式的公式，其输出与 TeX 输出尽可能接近。
+
+#### Google Analytics插件
+
+搜索安装Google Analytics for DokuWiki，用来跟踪网站的访问情况，只需配置Google Analytics ID，其他使用默认配置。
