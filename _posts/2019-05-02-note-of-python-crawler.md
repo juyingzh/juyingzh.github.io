@@ -160,7 +160,7 @@ Response对象的主要属性：
 
 Response类提供raise_for_status()方法，判断status_code是否小于400（Response.ok），否则产生异常requests.HTTPError。使用此方法的通用代码框架如下:
 
-```Python
+```python
 try:
     r = requests.request()
     r.raise_for_status()
