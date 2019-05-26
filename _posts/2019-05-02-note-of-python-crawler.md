@@ -9,7 +9,7 @@ tags: [Python, 爬虫]
 * Content
 {:toc}
 
-2019年3月25日开始学习北京理工大学的网络公开课：[Python网络爬虫与信息提取](https://www.icourse163.org/course/BIT-1001870001)。
+2019年3月25日开始学习北京理工大学的网络公开课：[Python网络爬虫与信息提取](https://www.icourse163.org/course/BIT-1001870001)。本课程是“Python网络爬虫与数据分析”课程的上半部分。
 
 课程主要讲述Python的网络数据爬取和解析技术，具体包括构建网络爬虫的两条重要技术路线：requests-bs4-re和Scrapy。手工爬取信息使用Requests获取网页，BeautifulSoap4解析网页，RE提取关键信息；网络爬虫框架自动完成信息爬取过程。
 
