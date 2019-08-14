@@ -102,11 +102,11 @@ ndarray数组的维度变换方法有：
 
 ndarray数组的类型变换：
 
-  new_ndarray = ndarray.astype(new_type)  # 方法一定会创建新的数组（原始数据的一个拷贝），即使两个类型一致
+    new_ndarray = ndarray.astype(new_type)  # 方法一定会创建新的数组（原始数据的一个拷贝），即使两个类型一致
 
 ndarray数组向列表的转换：
 
-  ls = ndarray.tolist()
+    ls = ndarray.tolist()
 
 #### ndarray数组的操作
 
@@ -264,7 +264,7 @@ format_string由标记字符、风格字符和颜色字符组成，`fmt = '[mark
   * 'x' x标记
   * 'D' 菱形标记
   * 'd' 瘦菱形标记
-  * '|' 垂直线标记
+  * `'|'` 垂直线标记
   * `'_'` s水平线标记
 
 风格字符有：
@@ -329,7 +329,7 @@ pyplot主要的文本显示函数有：
   * plt.text() 在任意位置增加文本
   * plt.annotate() 在图形中增加带箭头的注解
 
-pyplot的文本显示函数支持Latex数学公式，在字符串中使用`$...$`引入数学公式，最好使用Raw字符串。
+pyplot的文本显示函数支持Latex数学公式，在字符串中使用`$...$`引入数学公式，应使用Raw字符串。
 
 #### pyplot的子绘图区域
 
