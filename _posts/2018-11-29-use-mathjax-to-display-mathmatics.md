@@ -179,7 +179,7 @@ MathJax 的源码保持在[GitHub](https://github.com/mathjax/MathJax/)。下载
 
 #### 使用 MathML 输入公式
 
-使用 MathML 输入数学公式时，`<math display="block"> 表示行间公式， `<math display="inline">` 或只是 `<math>` 标识行内公式。*输入太冗长，不适合人类使用！*
+使用 MathML 输入数学公式时，`<math display="block">` 表示行间公式， `<math display="inline">` 或只是 `<math>` 标识行内公式。*输入太冗长，不适合人类使用！*
 
 
 #### 使用 AsciiMath 输入公式
@@ -218,3 +218,7 @@ MathJax 的源码保持在[GitHub](https://github.com/mathjax/MathJax/)。下载
 当 $a \ne 0$, 方程 \\( ax^2 + bx + c = 0 \\) 有两个根：
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+## 更新记录
+
+  * 2018-11-29：首次发布；

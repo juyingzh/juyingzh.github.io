@@ -81,3 +81,6 @@ kramdown默认的自动生成目录的级别为1-6级，可以在 `_config.yml` 
 [这个](https://wklchris.github.io/Advanced-blog-skills.html) 用CSS在文章页面右侧开辟一个侧边栏，使用JavaScript生成文章目录
 
 
+## 更新记录
+
+  * 2018-12-01：首次发布；

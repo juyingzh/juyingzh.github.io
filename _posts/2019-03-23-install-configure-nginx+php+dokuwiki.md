@@ -168,3 +168,7 @@ Dokuwiki的扩展包括模板和插件。模板使用自带的缺省模板就可
 #### Google Analytics插件
 
 搜索安装Google Analytics for DokuWiki，用来跟踪网站的访问情况，只需配置Google Analytics ID，其他使用默认配置。
+
+## 更新记录
+
+  * 2019-03-23：首次发布；

@@ -695,3 +695,6 @@ Variable 标签创建 Liquid 变量。有四种定义变量的方法：assign, c
 Jekyll使用Liquid对文本进行解析，在Markdonw文件中的Liquid代码会被解析，所以，Markdonw文件中的Liquid代码需要使用raw标签进行包裹。raw标签遇到endraw标签就会闭合，如果在代码行中显示<code>{&#37; raw &#37;}</code>和<code>{&#37; endraw &#37;}</code>，可以使用HTML的硬编码（参看本文）；如果在代码块中显示，定义一个变量{% raw %}`{% assign openTag = '{%' %}`{% endraw %}，然后使用{% raw %}`{{ openTag }} endraw %}`{% endraw %}。
 
 
+## 更新记录
+
+  * 2018-11-16：首次发布；
