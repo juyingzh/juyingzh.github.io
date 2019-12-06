@@ -94,7 +94,7 @@ nginx由模块组成，模块由配置文件中的指令控制。指令分为简
 		fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
 	}
 
-因为禁止访问目录：
+设置禁止访问目录：
 
 	location ~ /(data|conf|bin|inc|vendor)/ {
       deny all;
