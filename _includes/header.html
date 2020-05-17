@@ -7,12 +7,13 @@
             <ul>
                 <li>
                     {% if page.url == '/' %}
-                    <a class="active" href="{{site.baseurl}}/">
-                        {% else %}
-                    <a href="{{site.baseurl}}/">
+						<a class="active" href="{{site.baseurl}}/">
+                    {% else %}
+						<a href="{{site.baseurl}}/">
                     {% endif %}
-                        <i class="fa fa-home"></i>Home
-                    </a>
+                    <i class="fa fa-home"></i>
+					Home
+					</a>
                 </li>
 
                 {% for my_page in site.pages %}
