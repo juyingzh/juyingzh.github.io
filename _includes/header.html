@@ -29,7 +29,19 @@
                     </li>
                     {% endif %}
                 {% endfor %}
+				
+	            <!-- Search button -->
+				<li>
+				    <a href="javascript:;" class="popup-trigger">
+					<i class="fa fa-search" aria-hidden="true"></i>Search
+				</li>
             </ul>
+			
+			<!-- Search popup box -->
+			    <div class="site-search">
+					{% include search.html %}
+				</div>
+			
         </nav>
     </div>
 </header>
